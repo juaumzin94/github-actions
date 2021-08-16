@@ -11,11 +11,6 @@ inputs:
   tf_actions_version:
     description: 'Terraform version to install.'
     required: true
-  tf_actions_cli_credentials_hostname:
-    description: 'Hostname for the CLI credentials file.'
-    default: 'app.terraform.io'
-  tf_actions_cli_credentials_token:
-    description: 'Token for the CLI credentials file.'
   tf_actions_comment:
     description: 'Whether or not to comment on pull requests.'
     default: true
